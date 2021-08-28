@@ -21,6 +21,6 @@ npm install npm@latest -g
 GoodOne#1234
 ```
 # Features And Bugs
-* Fell free to [request features](https://github.com/GoodOne120/CFX.re-IP-Finder/issues/new) and [report bugs](https://github.com/GoodOne120/CFX.re-IP-Finder/issues/new). I wil fix them or implement features as fast as I can. :)
+* Feel free to [request features](https://github.com/GoodOne120/CFX.re-IP-Finder/issues/new) and [report bugs](https://github.com/GoodOne120/CFX.re-IP-Finder/issues/new). I wil fix them or implement features as fast as I can. :)
 # License
 * Distributed under the MIT License. [Click here](https://github.com/GoodOne120/CFX.re-IP-Finder/blob/main/LICENSE) for more information.
