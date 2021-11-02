@@ -14,7 +14,7 @@ const rl = readline.createInterface({
 });
 
 var recursiveAsyncReadLine = function () {
-rl.question("Please type server's CFX.re IP address here >>> ", (url) => {
+rl.question("Please type server's CFX.re IP address here: ", (url) => {
 
 if (url.startsWith("cfx.re/join/")) {
   
@@ -43,7 +43,9 @@ catch(error) {
 
   console.log();
   console.log(`CFX.re IP: \x1b[36m${url}`);
-  console.log(`\x1b[0mIP Address: \x1b[36m${response}\x1b[0m`);
+  console.log(`\x1b[0mIP address: \x1b[36m${response}\x1b[0m`);
+  console.log();
+  console.log(`\x1b[32mNote: Remember that some servers have their IP hidden and there is no other way to get server IP.`)
   console.log();
   console.log(`\x1b[33mYou can contact me on Discord, just be kind - GoodOne#4446.`);
   console.log(`\x1b[33mFeel free to request features and report bugs. I will fix them or implement features as fast as I can. :)\x1b[0m`);
