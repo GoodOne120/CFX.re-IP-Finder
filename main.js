@@ -30,9 +30,18 @@ else {
 }
 
   async function storejson() {
+
+try {
+  
   var response = (await (await fetch("https://servers-frontend.fivem.net/api/servers/single/" + request)).json()).Data.connectEndPoints[0];
 
-  console.log();
+} catch (error) {
+
+  var response = "Server was not found! Check server's CFX.re IP address."
+
+}
+
+console.log();
   console.log(`CFX.re IP: \x1b[36m${url}`);
   console.log(`\x1b[0mIP address: \x1b[36m${response}\x1b[0m`);
   console.log();
