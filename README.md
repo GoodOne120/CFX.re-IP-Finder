@@ -8,7 +8,7 @@ Easily find FiveM server's IP address.
 npm install npm@latest -g
 ```
 # Installation & Usage
-* Run `Start.bat` file. That will also install [xmlhttprequest](https://www.npmjs.com/package/xmlhttprequest) package and prepare program for usage.
+* Run `Start.bat` file. That will also install [node-fetch](https://www.npmjs.com/package/node-fetch) package and prepare program for usage.
 * Type your server's CFX.re IP address.
 * Get information.
 
