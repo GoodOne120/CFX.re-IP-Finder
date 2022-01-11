@@ -9,7 +9,7 @@ npm install npm@latest -g
 ```
 # Installation & Usage
 * Run `Start.bat` file. **(for Windows)**
-* Run `Start.sh` file and enter `sudo chmod a=rwx Start.sh` command. **(for Linux)**\
+* Run `Start.sh` file and enter `sudo chmod a=rwx Start.sh` command. **(for Linux)**
 * Enter your server's CFX.re IP address.
 * Get information.
 
