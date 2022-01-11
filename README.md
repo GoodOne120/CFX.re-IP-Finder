@@ -1,18 +1,19 @@
 # CFX.re IP Finder
 Easily find FiveM server's IP address.
 # Prerequisites
-* [Node.JS 16.13.1 LTS](https://nodejs.org/dist/v16.13.1/node-v16.13.1-x64.msi)
+* [Node.JS LTS](https://nodejs.org/en/download/)
 
 * NPM
 ```bash
 npm install npm@latest -g
 ```
 # Installation & Usage
-* Run `Start.bat` file. That will also install [node-fetch](https://www.npmjs.com/package/node-fetch) package and prepare program for usage.
-* Type your server's CFX.re IP address.
+* Run `Start.bat` file. **(for Windows)**
+* Run `Start.sh` file and enter `sudo chmod a=rwx Start.sh` command. **(for Linux)**\
+* Enter your server's CFX.re IP address.
 * Get information.
 
-*Note: Remember that some servers have their IP hidden and there is no other way to get server IP.*
+*Note: Remember that some servers have their IP hidden and there is no other way to get server IP. Also make sure that server is online!*
 # Example
 ![](https://cdn.discordapp.com/attachments/515966102791127051/881251566454202368/Preview.gif)
 *This example is from older version of this program so it can have some differences!*
