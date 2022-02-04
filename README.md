@@ -1,10 +1,5 @@
-
-# !! [CLICK HERE](https://github.com/GoodOne120/CFX.re-IP-Finder/tree/b25337cbd895fbde17e8b4e973bc31267dacd5ec) TO DOWNLOAD WORKING VERSION OF THIS PROGRAM !!
-
-
 # CFX.re IP Finder
 Easily find FiveM server's IP address.
-
 # Prerequisites
 * [Node.JS LTS](https://nodejs.org/en/download/)
 
