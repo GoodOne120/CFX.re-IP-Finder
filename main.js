@@ -7,33 +7,33 @@ console.log("  \\_____|_|    /_/ \\_(_)_|  \\___|  |_____|_|       |_|    |_|_| 
 console.log("\x1b[0m");
 
 const readline = require('readline');
-const fetch = require('node-fetch');
+const axios = require('axios');
 const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout
 });
 
 var recursiveAsyncReadLine = function () {
-rl.question("Please enter server's CFX.re IP address here: ", (url) => {
+rl.question("Please enter server's CFX.re IP address (cfx.re/join/XXXXXX or XXXXXX): ", (url) => {
 
 if (url.startsWith("cfx.re/join/")) {
   
-  var request = url.replace("cfx.re/join/", "");
+  var request = "https://" + url
 
 }
 
 else {
   
-  var request = url.replace("https://cfx.re/join/", "");
-  var url = url.replace("https://", "");
+  var request = "https://cfx.re/join/" + url
+  var url = "cfx.re/join/" + url;
   
 }
 
   async function storejson() {
 
 try {
-  
-  var response = (await (await fetch("https://servers-frontend.fivem.net/api/servers/single/" + request)).json()).Data.connectEndPoints[0];
+
+  var response = (await axios.get(request)).headers["x-citizenfx-url"].replace("http://", "").replace("/", "");
 
 } catch (error) {
 

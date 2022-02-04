@@ -8,8 +8,12 @@ Easily find FiveM server's IP address.
 npm install npm@latest -g
 ```
 # Installation & Usage
-* Run `Start.bat` file. **(for Windows)**
-* Run `Start.sh` file and enter `sudo chmod a=rwx Start.sh` command. **(for Linux)**
+#### For Windows:
+* Run `Start.bat` file.
+#### For Linux:
+* Enter `sudo chmod a=rwx Start.sh` command to make file executable.
+* Enter `./Start.sh` command to run the file.
+#### Usage:
 * Enter your server's CFX.re IP address.
 * Get information.
 

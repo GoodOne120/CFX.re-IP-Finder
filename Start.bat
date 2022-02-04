@@ -1,8 +1,8 @@
-if exist node_modules\node-fetch\ (
+if exist node_modules\axios\ (
   cls
   node main.js
 ) else (
-  npm i node-fetch@2
+  npm i axios
   npm audit fix
   cls
   node main.js
