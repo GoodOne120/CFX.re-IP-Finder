@@ -19,7 +19,7 @@ npm install npm@latest -g
 
 *Note: Remember that some servers have their IP hidden and there is no other way to get server IP. Also make sure that server is online!*
 # Example
-![](Preview.gif)
+![](Preview/Preview.gif)
 # Contact
 * You can contact me on Discord, just be kind.
 ```
