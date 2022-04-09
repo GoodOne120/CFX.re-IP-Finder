@@ -17,7 +17,7 @@ npm install npm@latest -g
 * Enter your server's CFX.re IP address.
 * Get information.
 
-*Note: Remember that some servers have their IP hidden and there is no other way to get server IP. Also make sure that server is online!*
+*Note: Remember that some servers have their IP hidden, but there is another way to get it. Also make sure that server is online!*
 # Example
 ![](Preview/Preview.gif)
 # Contact
