@@ -22,11 +22,18 @@ if (url.startsWith("cfx.re/join/")) {
 
 }
 
+else if (url.startsWith("https://cfx.re/join/")) {
+  
+  var request = url
+  var url = url.replace("https://", "")
+  
+} 
+
 else {
   
   var request = "https://cfx.re/join/" + url
   var url = "cfx.re/join/" + url;
-  
+
 }
 
   async function storeheader() {
