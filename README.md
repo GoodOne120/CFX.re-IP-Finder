@@ -1,7 +1,7 @@
 # CFX.re IP Finder
 Easily find FiveM server's IP address.
 # Prerequisites
-* [Node.JS](https://nodejs.org/en/download/)(Recommended LTS)
+* [Node.JS] https://nodejs.org/en/download/)(Recommended LTS)
 
 * NPM
 ```bash
