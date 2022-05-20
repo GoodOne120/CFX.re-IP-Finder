@@ -8,9 +8,11 @@ Easily find FiveM server's IP address.
 npm install npm@latest -g
 ```
 # Installation & Usage
+* Install all prerequisites.
 #### For Windows:
 * Run `Start.bat` file.
 #### For Linux:
+* Install all prerequisites.
 * Enter `sudo chmod a=rwx Start.sh` command to make file executable.
 * Enter `./Start.sh` command to run the file.
 #### Usage:
